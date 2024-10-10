@@ -11,3 +11,15 @@ This is done by first encoding the first N frames to a latent space. Those repre
 <img width="575" alt="predictions" src="https://github.com/user-attachments/assets/4a6fe194-00bd-4d00-b930-b0395f2a7402">
 
 The first image is the true data, the second image is separated into the first row, which is are the autoencoder reconstructions where N=10 and the second row are the hypernetwork reconstructions. The network predicts one frame at a time, and every time it is given the true previous N frames as an sliding window. 
+
+To reproduce the results, follow the order of execution: 
+- Imports
+- Hyperparameters
+- Dataset
+- MainNetwork (Autoencoder part, based on the code avilable at [1])
+- Hyper / Flat (If you want to chekc the difference between learning the hypernetwork and the direct approach)
+- Main model
+- Training and testing
+
+
+[1]: https://colab.research.google.com/github/zalandoresearch/pytorch-vq-vae/blob/master/vq-vae.ipynb
