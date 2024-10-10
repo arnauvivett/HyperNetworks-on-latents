@@ -17,7 +17,7 @@ To reproduce the results, follow the order of execution:
 - Hyperparameters
 - Dataset
 - MainNetwork (Autoencoder part, based on the code avilable at [1])
-- Hyper / Flat (If you want to chekc the difference between learning the hypernetwork and the direct approach)
+- Hyper / Flat (If you want to check the difference between learning the hypernetwork and the direct approach)
 - Main model
 - Training and testing
 
